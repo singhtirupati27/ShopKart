@@ -1,0 +1,26 @@
+uuid: a7a3d0c4-542a-478a-8e77-65a80e8ec144
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: electronics
+label: Electronics
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      electronics: electronics
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 3
+  max_size: 3
+  act_as_queue: false
+  reverse: false

@@ -1,0 +1,26 @@
+uuid: d9b83d3b-7d36-48cd-a88c-a999d254fdb0
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.fashion
+id: entity_subqueue.fashion.default
+targetEntityType: entity_subqueue
+bundle: fashion
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

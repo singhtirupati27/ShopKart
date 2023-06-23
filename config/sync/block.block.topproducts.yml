@@ -1,0 +1,25 @@
+uuid: 492cc16d-80bc-4d9f-a380-7fbd1bb96d4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.top-products
+  module:
+    - system
+  theme:
+    - bootstrap5
+id: topproducts
+theme: bootstrap5
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:top-products'
+settings:
+  id: 'system_menu_block:top-products'
+  label: 'Edit Top Products'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

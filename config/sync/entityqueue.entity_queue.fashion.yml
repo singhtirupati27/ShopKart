@@ -1,0 +1,26 @@
+uuid: eeb9f652-6b19-4696-ac8b-7d7b0fa1af58
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: fashion
+label: Fashion
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      fashion: fashion
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 3
+  max_size: 3
+  act_as_queue: false
+  reverse: false

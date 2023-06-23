@@ -1,0 +1,8 @@
+uuid: ac7fd2a6-060e-447e-b352-bdf2f427c03d
+langcode: en
+status: true
+dependencies: {  }
+name: Appliances
+vid: appliances
+description: ''
+weight: 0

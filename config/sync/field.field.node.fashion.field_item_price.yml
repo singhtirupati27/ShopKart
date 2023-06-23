@@ -1,0 +1,23 @@
+uuid: fbf97152-a166-4083-ad1e-6ffdfa26c003
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_price
+    - node.type.fashion
+id: node.fashion.field_item_price
+field_name: field_item_price
+entity_type: node
+bundle: fashion
+label: 'Item Price'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: 1.0
+  prefix: 'Rs '
+  suffix: ''
+field_type: decimal

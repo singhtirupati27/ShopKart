@@ -1,0 +1,14 @@
+uuid: 55757002-6dc8-4508-af7a-7a63df2ea110
+langcode: en
+status: true
+dependencies: {  }
+name: product_image_medium_200x200_
+label: 'Product Image Medium (200x200)'
+effects:
+  f7aae9d1-05ee-4099-a268-2f8003fc21c9:
+    uuid: f7aae9d1-05ee-4099-a268-2f8003fc21c9
+    id: image_resize
+    weight: 1
+    data:
+      width: 200
+      height: 200

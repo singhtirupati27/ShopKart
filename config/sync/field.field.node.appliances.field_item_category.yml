@@ -1,0 +1,29 @@
+uuid: a877518d-f3a8-4924-90ee-3efcadc91b5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_category
+    - node.type.appliances
+    - taxonomy.vocabulary.appliances
+id: node.appliances.field_item_category
+field_name: field_item_category
+entity_type: node
+bundle: appliances
+label: 'Item Category'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      appliances: appliances
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

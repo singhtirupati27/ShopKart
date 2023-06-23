@@ -1,0 +1,7 @@
+uuid: ee1abd5d-07f9-4d2d-a37f-ff9bf3100e31
+langcode: en
+status: false
+dependencies: {  }
+formId: node_fashion_form
+captchaType: default
+label: node_fashion_form

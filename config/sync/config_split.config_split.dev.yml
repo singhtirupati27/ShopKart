@@ -1,0 +1,17 @@
+uuid: e0819533-7c8b-4560-8489-b37d6598d20e
+langcode: en
+status: true
+dependencies: {  }
+id: dev
+label: Dev
+description: ''
+weight: 0
+folder: ../config/dev
+module:
+  webform_ui: 0
+theme: {  }
+blacklist:
+  - system.site
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

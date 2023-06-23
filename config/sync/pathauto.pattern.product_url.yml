@@ -1,0 +1,28 @@
+uuid: 265bf191-b071-4ce1-89c2-cb9161d69809
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: product_url
+label: 'Product URL'
+type: 'canonical_entities:node'
+pattern: '/product/[node:title]'
+selection_criteria:
+  534cf3b3-1b2c-4574-b0bd-f0cd77ac058c:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 534cf3b3-1b2c-4574-b0bd-f0cd77ac058c
+    context_mapping:
+      node: node
+    bundles:
+      2_wheelers: 2_wheelers
+      appliances: appliances
+      electronics: electronics
+      fashion: fashion
+      grocery: grocery
+      home_furniture: home_furniture
+      mobiles: mobiles
+selection_logic: and
+weight: -5
+relationships: {  }

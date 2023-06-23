@@ -1,0 +1,26 @@
+uuid: 208af796-3e2a-4d9f-ac3f-4b2b8601d0ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.grocery
+id: entity_subqueue.grocery.default
+targetEntityType: entity_subqueue
+bundle: grocery
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

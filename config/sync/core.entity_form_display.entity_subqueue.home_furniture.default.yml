@@ -1,0 +1,26 @@
+uuid: a7313ebd-c2fc-4225-a40a-38ce92dbae65
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.home_furniture
+id: entity_subqueue.home_furniture.default
+targetEntityType: entity_subqueue
+bundle: home_furniture
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

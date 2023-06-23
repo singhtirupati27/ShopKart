@@ -1,0 +1,23 @@
+uuid: 0ed42ad3-d159-4fa0-a547-ddb1a9f26f0c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_description
+    - node.type.2_wheelers
+  module:
+    - text
+id: node.2_wheelers.field_item_description
+field_name: field_item_description
+entity_type: node
+bundle: 2_wheelers
+label: 'Item Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

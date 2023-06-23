@@ -1,0 +1,26 @@
+uuid: e706934d-f1f2-492e-9d7a-6b06b654a159
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.electronics
+id: entity_subqueue.electronics.default
+targetEntityType: entity_subqueue
+bundle: electronics
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

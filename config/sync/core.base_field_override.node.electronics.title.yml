@@ -1,0 +1,18 @@
+uuid: 453e1717-65a0-44ff-ba68-442ba391b9d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.electronics
+id: node.electronics.title
+field_name: title
+entity_type: node
+bundle: electronics
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

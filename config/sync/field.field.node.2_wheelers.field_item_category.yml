@@ -1,0 +1,29 @@
+uuid: 2e5b80e7-a190-4efb-9775-2bc77acab276
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_category
+    - node.type.2_wheelers
+    - taxonomy.vocabulary.2_wheelers
+id: node.2_wheelers.field_item_category
+field_name: field_item_category
+entity_type: node
+bundle: 2_wheelers
+label: 'Item Category'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      2_wheelers: 2_wheelers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

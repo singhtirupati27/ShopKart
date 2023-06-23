@@ -1,0 +1,8 @@
+uuid: c4493185-1439-4fbf-a1ea-e6648267a3be
+langcode: en
+status: true
+dependencies: {  }
+name: 'Home & Furniture'
+vid: home_furniture
+description: ''
+weight: 0

@@ -1,0 +1,26 @@
+uuid: 8e947f28-b67e-4c52-8477-11eef7593a65
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.2_wheelers
+id: entity_subqueue.2_wheelers.default
+targetEntityType: entity_subqueue
+bundle: 2_wheelers
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

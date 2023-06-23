@@ -1,0 +1,28 @@
+uuid: d2fd3cb0-f41b-4783-9970-a0f0a22c4680
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.2_wheelers
+id: entity_subqueue.2_wheelers.default
+targetEntityType: entity_subqueue
+bundle: 2_wheelers
+mode: default
+content:
+  items:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -10
+    region: content
+hidden: {  }

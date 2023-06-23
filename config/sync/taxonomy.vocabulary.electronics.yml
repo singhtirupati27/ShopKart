@@ -1,0 +1,8 @@
+uuid: b9fa935d-258d-4bda-bf5d-ab900a484ac7
+langcode: en
+status: true
+dependencies: {  }
+name: Electronics
+vid: electronics
+description: ''
+weight: 0
