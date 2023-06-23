@@ -1,0 +1,14 @@
+uuid: 92d7978c-d652-410e-b10d-26e5aebe2e2b
+langcode: en
+status: true
+dependencies: {  }
+name: product_image_large_400x400_
+label: 'Product Image Large (400x400)'
+effects:
+  b111753a-7653-490f-b74d-98bae1d795af:
+    uuid: b111753a-7653-490f-b74d-98bae1d795af
+    id: image_resize
+    weight: 1
+    data:
+      width: 400
+      height: 400

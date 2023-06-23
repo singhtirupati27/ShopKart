@@ -1,0 +1,14 @@
+uuid: 4f49a048-de3d-4ba9-96ee-0aba05f67580
+langcode: en
+status: true
+dependencies: {  }
+name: product_thumbnail_100x100_
+label: 'Product Thumbnail (100x100)'
+effects:
+  055697f1-ab48-4304-92bf-60c27ccc3e51:
+    uuid: 055697f1-ab48-4304-92bf-60c27ccc3e51
+    id: image_resize
+    weight: 1
+    data:
+      width: 100
+      height: 100

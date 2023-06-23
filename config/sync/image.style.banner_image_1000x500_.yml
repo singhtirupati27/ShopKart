@@ -1,0 +1,14 @@
+uuid: 361d491a-5913-41d8-8670-4e02ab2b6cda
+langcode: en
+status: true
+dependencies: {  }
+name: banner_image_1000x500_
+label: 'Banner Image (1000x500)'
+effects:
+  b3baa474-e6e0-4151-9281-bf1640ee6b39:
+    uuid: b3baa474-e6e0-4151-9281-bf1640ee6b39
+    id: image_resize
+    weight: 1
+    data:
+      width: 1000
+      height: 500

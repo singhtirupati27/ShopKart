@@ -1,0 +1,29 @@
+uuid: c283d1db-02ad-4e30-8ee3-2c2c8f095af8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_category
+    - node.type.mobiles
+    - taxonomy.vocabulary.mobiles
+id: node.mobiles.field_item_category
+field_name: field_item_category
+entity_type: node
+bundle: mobiles
+label: 'Item Category'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      mobiles: mobiles
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

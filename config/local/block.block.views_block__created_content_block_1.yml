@@ -1,0 +1,29 @@
+uuid: 6af5aa28-2749-4a84-a8f2-50803d8f1aac
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.created_content
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__created_content_block_1
+theme: bootstrap5
+region: content
+weight: -1
+provider: null
+plugin: 'views_block:created_content-block_1'
+settings:
+  id: 'views_block:created_content-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

@@ -1,0 +1,23 @@
+uuid: c03456b4-bb7d-40ca-a0cd-1681f3a0bfa3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_price
+    - node.type.grocery
+id: node.grocery.field_item_price
+field_name: field_item_price
+entity_type: node
+bundle: grocery
+label: 'Item Price'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1.0
+  max: null
+  prefix: 'Rs '
+  suffix: ''
+field_type: decimal

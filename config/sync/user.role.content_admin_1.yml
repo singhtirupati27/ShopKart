@@ -1,0 +1,33 @@
+uuid: 4038272b-52d4-4106-9637-d1b41193c5d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.appliances
+    - node.type.electronics
+    - node.type.grocery
+  module:
+    - contextual
+    - entityqueue
+    - node
+    - system
+    - toolbar
+id: content_admin_1
+label: 'Content Admin 1'
+weight: 4
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'create appliances content'
+  - 'create electronics content'
+  - 'create grocery content'
+  - 'edit own appliances content'
+  - 'edit own electronics content'
+  - 'edit own grocery content'
+  - 'manipulate entityqueues'
+  - 'update appliances entityqueue'
+  - 'update electronics entityqueue'
+  - 'update grocery entityqueue'

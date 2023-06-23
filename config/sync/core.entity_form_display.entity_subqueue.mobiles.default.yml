@@ -1,0 +1,26 @@
+uuid: 79e44559-56ce-4ca9-96f7-ad394a103a95
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.mobiles
+id: entity_subqueue.mobiles.default
+targetEntityType: entity_subqueue
+bundle: mobiles
+mode: default
+content:
+  items:
+    type: options_buttons
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

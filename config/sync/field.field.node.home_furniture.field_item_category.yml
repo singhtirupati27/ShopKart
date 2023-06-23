@@ -1,0 +1,29 @@
+uuid: facb44ea-0d40-4b79-bfa2-b97251e5f718
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_category
+    - node.type.home_furniture
+    - taxonomy.vocabulary.home_furniture
+id: node.home_furniture.field_item_category
+field_name: field_item_category
+entity_type: node
+bundle: home_furniture
+label: 'Item Category'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      home_furniture: home_furniture
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

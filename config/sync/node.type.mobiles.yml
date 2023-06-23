@@ -1,0 +1,17 @@
+uuid: 71064cdd-57bc-4090-9ac8-72742c1d943e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Mobiles
+type: mobiles
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,28 @@
+uuid: 17308572-4282-4af3-9c74-11cda339d285
+langcode: en
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: product_category_url
+label: 'Product Category URL'
+type: 'canonical_entities:taxonomy_term'
+pattern: '/[term:vocabulary:name]/[term:name]'
+selection_criteria:
+  74b043ff-dc39-45ca-b7d1-03692327fbc6:
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    uuid: 74b043ff-dc39-45ca-b7d1-03692327fbc6
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    bundles:
+      2_wheelers: 2_wheelers
+      appliances: appliances
+      electronics: electronics
+      fashion: fashion
+      grocery: grocery
+      home_furniture: home_furniture
+      mobiles: mobiles
+selection_logic: and
+weight: -5
+relationships: {  }

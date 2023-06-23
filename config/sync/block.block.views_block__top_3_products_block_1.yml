@@ -1,0 +1,29 @@
+uuid: bc3e8688-66f6-4415-b335-a51bce947e01
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_3_products
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap5
+id: views_block__top_3_products_block_1
+theme: bootstrap5
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:top_3_products-block_1'
+settings:
+  id: 'views_block:top_3_products-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /home

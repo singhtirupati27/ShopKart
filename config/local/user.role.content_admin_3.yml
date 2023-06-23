@@ -1,0 +1,27 @@
+uuid: de908118-94e4-42e6-9b97-875efe7b0612
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.2_wheelers
+  module:
+    - contextual
+    - devel_generate
+    - entityqueue
+    - node
+    - system
+    - toolbar
+id: content_admin_3
+label: 'Content Admin 3'
+weight: 6
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access toolbar'
+  - 'administer devel_generate'
+  - 'create 2_wheelers content'
+  - 'edit own 2_wheelers content'
+  - 'manipulate entityqueues'
+  - 'update 2_wheelers entityqueue'

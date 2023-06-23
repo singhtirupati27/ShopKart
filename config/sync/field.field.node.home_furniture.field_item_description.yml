@@ -1,0 +1,23 @@
+uuid: 39e2145b-7195-45ce-90ef-d82c02c97905
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_description
+    - node.type.home_furniture
+  module:
+    - text
+id: node.home_furniture.field_item_description
+field_name: field_item_description
+entity_type: node
+bundle: home_furniture
+label: 'Item Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

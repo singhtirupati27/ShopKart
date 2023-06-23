@@ -1,0 +1,23 @@
+uuid: 93c11966-8045-4777-9eab-ce68c9c3738b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_description
+    - node.type.mobiles
+  module:
+    - text
+id: node.mobiles.field_item_description
+field_name: field_item_description
+entity_type: node
+bundle: mobiles
+label: 'Item Description'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

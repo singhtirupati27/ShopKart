@@ -1,0 +1,23 @@
+uuid: 1c6d4bde-7cc8-4b2d-afe5-425b1275a581
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_item_price
+    - node.type.2_wheelers
+id: node.2_wheelers.field_item_price
+field_name: field_item_price
+entity_type: node
+bundle: 2_wheelers
+label: 'Item Price'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1.0
+  max: null
+  prefix: 'Rs '
+  suffix: ''
+field_type: decimal

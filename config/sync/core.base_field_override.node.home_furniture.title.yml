@@ -1,0 +1,18 @@
+uuid: 8c360f7e-a47d-4a05-b789-fe28eb2030bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.home_furniture
+id: node.home_furniture.title
+field_name: title
+entity_type: node
+bundle: home_furniture
+label: Name
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

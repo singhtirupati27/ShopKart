@@ -1,0 +1,63 @@
+uuid: 82e42e5e-7192-47c1-9b59-5e157778933c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.home_furniture.field_item_category
+    - field.field.node.home_furniture.field_item_description
+    - field.field.node.home_furniture.field_item_image
+    - field.field.node.home_furniture.field_item_price
+    - image.style.product_image_medium_200x200_
+    - node.type.home_furniture
+  module:
+    - image
+    - text
+    - user
+id: node.home_furniture.default
+targetEntityType: node
+bundle: home_furniture
+mode: default
+content:
+  field_item_category:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_item_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_item_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: product_image_medium_200x200_
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_item_price:
+    type: number_decimal
+    label: hidden
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

@@ -1,0 +1,8 @@
+uuid: 1240c81e-440e-45d7-8a00-0031f220e93e
+langcode: en
+status: true
+dependencies: {  }
+id: top-products
+label: 'Top Products'
+description: ''
+locked: false
